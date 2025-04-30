@@ -1,4 +1,3 @@
 changes_after.txt
-changes_before.txt
 ecu_00_central/central_container/version.txt
 mainfast.json
