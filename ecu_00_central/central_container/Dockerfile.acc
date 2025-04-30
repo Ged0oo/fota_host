@@ -1,0 +1,10 @@
+FROM python:3.11-alpine AS builder
+RUN apk add --no-cache build-base python3-dev
+WORKDIR /app
+COPY acc_app.py .
+
+FROM python:3.11-alpine
+WORKDIR /app
+COPY --from=builder /app/acc_app.py .
+
+CMD ["python", "acc_app.py"]

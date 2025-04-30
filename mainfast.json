@@ -1,0 +1,32 @@
+[
+  {
+    "ecuid": "00",
+    "name": "central",
+    "version": "1",
+    "description": "Testing"
+  },
+  {
+    "ecuid": "01",
+    "name": "front",
+    "version": "1",
+    "description": "Testing"
+  },
+  {
+    "ecuid": "02",
+    "name": "rear",
+    "version": "1.12",
+    "description": "Testing"
+  },
+  {
+    "ecuid": "11",
+    "name": "afs",
+    "version": "12.31",
+    "description": "afs configuration for all services"
+  },
+  {
+    "ecuid": "12",
+    "name": "motorcontrol",
+    "version": "1.56",
+    "description": "Testing"
+  }
+]

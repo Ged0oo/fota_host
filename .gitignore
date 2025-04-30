@@ -1,0 +1,13 @@
+watch_directory.sh
+watch_output.log
+temp.json
+update_manifest.sh
+update_manifest.log
+mainfast.json.bak
+.file_checksums
+file_watcher.log
+.last_trigger
+nohup.out
+update_tags.sh
+.version_checksums
+.vscode
