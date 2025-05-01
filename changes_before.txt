@@ -1,4 +1,3 @@
-build_and_push.sh
 changes_before.txt
-ecu_00_central/central_container/version.txt
+ecu_01_front/front_container/version.txt
 mainfast.json
