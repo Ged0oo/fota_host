@@ -43,11 +43,11 @@ for SERVICE in "${SERVICES[@]}"; do
   # Build docker image
   docker build \
     -f "$DOCKER_DIR/Dockerfile.$SERVICE" \
-    -t "ghcr.io/$USER/$REPO-$SERVICE:$VERSION" \
+    -t "ghcr.io/$USER/$TARGET-$SERVICE:$VERSION" \
     "$DOCKER_DIR"
   
   # Push docker image
-  docker push "ghcr.io/$USER/$REPO-$SERVICE:$VERSION"
+  docker push "ghcr.io/$USER/$TARGET-$SERVICE:$VERSION"
   
   echo "Successfully built and pushed $SERVICE:$VERSION"
 done
